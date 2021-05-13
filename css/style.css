@@ -1,0 +1,67 @@
+body{
+    background-color: #7FBEAB;
+}
+
+#cabecalho{
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    
+}
+
+#informacoes{
+    margin-right: 5em;
+    text-decoration: none;
+}
+
+#hab{
+    text-decoration: none;
+
+}
+
+
+
+.informa{
+    text-align: center;
+    font-family: monospace;
+    font-size: 3em;
+}
+
+#foto{
+    width: 40em;
+    margin-left: 38em;
+}
+
+.importante{
+    font-style: italic;
+
+}
+
+#habilidades{
+    
+    text-align: center;
+}
+
+#titulo.h{
+    font-size: 3em;
+}
+
+.top1{
+    font-size: 5em;
+}
+
+.top2{
+    font-size: 4em;
+}
+
+.top3{
+    font-size: 4em;
+}
+
+.top4{
+    font-size: 2.5em;
+}
+
+.top5{
+    font-size: 1em;
+}
