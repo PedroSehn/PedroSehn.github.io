@@ -1,67 +1,91 @@
+
 body{
-    background-color: #7FBEAB;
-}
-
-#cabecalho{
-    text-align: center;
-    font-size: 2em;
-    text-decoration: none;
-    
-}
-
-#informacoes{
-    margin-right: 5em;
-    text-decoration: none;
-}
-
-#hab{
-    text-decoration: none;
-
-}
-
-
-
-.informa{
-    text-align: center;
+    background: url(../images/background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     font-family: monospace;
-    font-size: 3em;
 }
 
-#foto{
-    width: 40em;
-    margin-left: 38em;
+#imagem{
+    margin-left:1145px;
+    margin-top: 100px;
+    position: absolute;
+    border: solid red;
+    display: inline-block;
 }
 
-.importante{
-    font-style: italic;
+#nome{
+    
+    background-color: rgba(255, 0, 0, 0.5);
+    text-align: center;
+    font-size: 50px;
 
+}
+
+nav{
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+}
+
+nav ul li{
+    border-radius: 20px;
+    display: inline;
+    list-style: none;
+    background-color: rgba(255, 0, 0, 0.5);
+    padding: 5px;
+}
+
+nav ul li:hover{
+    box-shadow: 2px 0px 6px yellow;
+    transition: 1s;
+}
+
+
+nav ul li:nth-child(1){
+    margin-right: 500px;
+}
+
+#informa{
+    margin-left:450px;
+    margin-top: 70px;
+    position: absolute;
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    font-size:20px;
 }
 
 #habilidades{
+   
+    position: absolute;
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    font-size:20px;
+    margin-left: 450px;
+    margin-top: 500px;
     
+}
+
+#informa, #habilidades{
     text-align: center;
+    background-color: rgba(255, 0, 0, 0.6);
+    border: solid red;
+    padding-left: 0;
+    
 }
 
-#titulo.h{
-    font-size: 3em;
+#informa ul li, #habilidades ul li{
+    list-style: none;
 }
 
-.top1{
-    font-size: 5em;
+#video{
+    border: solid red;
+    background-color: black;
+    margin-left:1150px;
+    margin-top: 570px;
+    display: inline-block;
 }
 
-.top2{
-    font-size: 4em;
-}
-
-.top3{
-    font-size: 4em;
-}
-
-.top4{
-    font-size: 2.5em;
-}
-
-.top5{
-    font-size: 1em;
-}
